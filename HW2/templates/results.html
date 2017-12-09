@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>результаты поиска</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+
+<body>
+<div class="container">
+<h1>Результаты поиска</h1>
+{%if r==0%}
+<h2>Информантов, соответствующих заданным Вами критериям, мы пока не опросили</h2> 
+{%else%}  
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Имя</th>
+      <th scope="col">Возраст</th>
+      <th scope="col">Город рождения</th>
+      <th scope="col">Город рождения матери</th>
+      <th scope="col">Город рождения отца</th>
+      <th scope="col">Город текущего пребывания</th>
+      <th scope="col">Время пребывания в городе</th>
+      <th scope="col">ДУБНА</th>
+      <th scope="col">ЛЮБЛИНО</th>
+      <th scope="col">БАЛАШИХА</th>      
+    </tr>
+  </thead>
+  <tbody>
+  {%for i in res%}
+    <tr>
+      <td>{{i['name']}}</td>
+      <td>{{i['age']}}</td>
+      <td>{{i['city']}}</td>
+      <td>{{i['city_mother']}}</td>
+      <td>{{i['city_father']}}</td>
+      <td>{{i['curr_city']}}</td>
+      <td>{{i['year']}}</td>
+      <td>{{i['Q1']}}</td>
+      <td>{{i['Q2']}}</td>
+      <td>{{i['Q3']}}</td>
+    </tr>
+    {%endfor%}
+  </tbody>
+{%endif%}  
+</table>
+</body>
+</html>

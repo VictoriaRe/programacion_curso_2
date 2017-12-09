@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>cпасибо!</title>
+</head>
+<body>
+<div class="container">
+<h1>Мы записали Ваш ответ.</h1>
+<h2>Спасибо, {{ name }}!</h2>
+<h3>Хотите посмотреть ответы всех информантов?</h3>
+<form action="/json">
+<button type="submit" class="btn btn-primary">Смотреть результаты</button>
+</form>
+<h3>Найти ответы информантов, соответствующих заданным Вами критериям?</h3>
+<form action="/search">
+<button type="submit" class="btn btn-primary">Искать</button>
+</form>
+<h3>Узнать, сколько человек прошло опрос, какие результаты?</h3>
+<form action="/stats">
+<button type="submit" class="btn btn-primary">Смотреть статистику</button>
+</form>
+</body>
+</html>

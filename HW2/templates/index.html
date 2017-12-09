@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>лингвистическая анкета</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<h1>прикоснись к прекрасному, пройди (социо)лингвистический опрос (c)</h1>
+<p>Дорогие!</p>
+<p>Нам очень нужна Ваша помощь с проектом по социолингвистике. Социолингвистика — раздел лингвистики, который, в первую очередь, изучает языковую вариативность. Здесь нет понятия правильного или неправильного.</p>
+<p>Пожалуйста, заполните анкету ниже.</p>
+<form action="/thanks">
+<ol>
+	<li>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"><b>Как Вас зовут?</b></label>
+    <input type="text"  name="name" class="form-control" id="exampleFormControlInput1" placeholder="Иван">
+    <small id="Help" class="form-text text-muted">Вы можете оставить это поле пустым.</small>
+  </div>
+	</li>
+	<li>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"><b>Сколько Вам лет?</b></label>
+    <input type="text" name="age" class="form-control" id="exampleFormControlInput1" placeholder="33">
+  </div>
+  </li>
+  <li>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"><b>В каком городе Вы провели большую часть жизни?</b></label>
+    <input type="text" name="city" class="form-control" id="exampleFormControlInput1" placeholder="Париж">
+  </div>
+  </li>
+  <li>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"> <b>В каком городе родилась Ваша мать?</b></label>
+    <input type="text" name= "city_mother" class="form-control" id="exampleFormControlInput1" placeholder="Москва">
+    <small id="Help" class="form-text text-muted">Вы можете оставить это поле пустым.</small>
+  </div>
+  </li>
+  <li>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"><b> В каком городе родился Ваш отец?</b></label>
+    <input type="text" name="city_father" class="form-control" id="exampleFormControlInput1" placeholder="Бордо">
+    <small id="Help" class="form-text text-muted">Вы можете оставить это поле пустым.</small>
+  </div>
+  </li>
+  <li>
+  <div class="form-group">
+    <label for="exampleFormControlInput1"><b>В каком городе Вы сейчас живёте?</b></label>
+    <input type="text" name="curr_city" class="form-control" id="exampleFormControlInput1" placeholder="Москва">
+  </div>
+  </li>
+  <li>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1"><b>Вы живёте в этом городе </b></label>
+    <select class="form-control" name="year" id="exampleFormControlSelect1">
+    <option selected>...</option>
+      <option>меньше года</option>
+      <option>больше года</option>
+      
+    </select>
+  </div>
+	</li>
+</ol>
+  <p><b><i>Выберете, пожалуйста, вариант, соответсвующий Вашему произношению.</i></b> </p>
+  <ol>
+  <li>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">В эти выходные на центральной площади Дубны зажгут гирлянду главной ели Подмосковья.</label>
+    <select class="form-control" name="Q1" id="exampleFormControlSelect1">
+    <option selected>...</option>
+      <option>ДУбны</option>
+      <option>ДубнЫ</option>     
+    </select>
+  </div>
+</li>
+<li>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">В Выхино пройдёт традиционный рождественский базар, а в Люблино устраивают чаепитие с блинами.</label>
+    <select class="form-control" name="Q2" id="exampleFormControlSelect1">
+    <option selected>...</option>
+      <option>ЛЮблино</option>
+      <option>ЛюблинО</option>     
+    </select>
+  </div>
+</li>
+<li>
+  <div class="form-group">
+    <label for="exampleFormControlSelect1">С детьми можно отправиться на каток в Химки или бродить по ледяному городку в Балашихе.</label>
+    <select class="form-control" name="Q3" id="exampleFormControlSelect1">
+    <option selected>...</option>
+      <option>БалАшихе</option>
+      <option>БалашИхе</option>     
+    </select>
+  </div>
+</li>
+  <p>Хороших выходных и с наступающим!</p>
+  <button type="submit" class="btn btn-primary">Готово</button>
+</form>
+</div>
+</body>
+</html>

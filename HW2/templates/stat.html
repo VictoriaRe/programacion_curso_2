@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>cтатистика</title>
+</head>
+<body>
+<div class="container">
+<h2>Количество опрошенных: {{number}}</h2>
+
+{% for var in variants%}
+<h2>Распределение ответов на вопрос:</h2>
+
+<h4>{{questions[variants.index(var)]}}</h4>
+	
+		{%for v, n in var.items()%}
+	
+		<li>{{ v }} - {{ n }}</li>
+    		{% endfor %}
+	{% endfor %}
+</body>
+</html>
