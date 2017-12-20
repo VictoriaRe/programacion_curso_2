@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>велкам</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<h1>Погода в Скопье сегодня чудесная, как и всегда!</h1>
+<h3> Температура воздуха: {{r["температура"]}}°C</h3>
+<h3> Влажность воздуха: {{r["влажность"]}}</h3>
+<h3> Давление: {{r["давление"]}}</h3>
+<h3> Ветер: {{r["ветер напр"][0]}} {{r["ветер скорость"][0]}}</h3>
+<h1>Интересно, как в дореволюционной орфографии выглядит слово?</h1>
+<form action="/oldbutgold">
+<div class="form-group">
+    <label for="exampleFormControlInput1"><h2>Введите его, а мы покажем:</h2></label>
+    <input type="text"  name="word" class="form-control" id="exampleFormControlInput1" placeholder="Ваше слово">
+    <p>               </p>
+    <button type="submit" class="btn btn-primary">ну-ка</button>
+  </div>
+</form>
+
+<h1>А ещё можно пройти небольшой тестик по дореволюционной орфографии</h1>
+<form action="/test">
+<p>               </p>
+<button type="submit" class="btn btn-primary">пройти!!</button>
+<h1>Почитать новости изволите?</h1>
+<form action="/news">
+<p>               </p>
+<button type="submit" class="btn btn-primary">даааа!!</button>
+
+</form>
+</body>
+</html>
