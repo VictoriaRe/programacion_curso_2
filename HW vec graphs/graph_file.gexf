@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema-instance">
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <meta>
+      <creator>NetworkX 2.1</creator>
+      <lastmodified>02/06/2018</lastmodified>
+    </meta>
+    <nodes>
+      <node id="детишки_NOUN" label="детишки_NOUN" />
+      <node id="младенец_NOUN" label="младенец_NOUN" />
+      <node id="ребенок_NOUN" label="ребенок_NOUN" />
+      <node id="малыш_NOUN" label="малыш_NOUN" />
+      <node id="девочка_NOUN" label="девочка_NOUN" />
+      <node id="мальчик_NOUN" label="мальчик_NOUN" />
+      <node id="подросток_NOUN" label="подросток_NOUN" />
+      <node id="детей_NOUN" label="детей_NOUN" />
+      <node id="дитё_NOUN" label="дитё_NOUN" />
+      <node id="ребятишки_NOUN" label="ребятишки_NOUN" />
+    </nodes>
+    <edges>
+      <edge id="0" source="детишки_NOUN" target="младенец_NOUN" />
+      <edge id="1" source="детишки_NOUN" target="ребенок_NOUN" />
+      <edge id="2" source="детишки_NOUN" target="малыш_NOUN" />
+      <edge id="3" source="детишки_NOUN" target="девочка_NOUN" />
+      <edge id="4" source="детишки_NOUN" target="мальчик_NOUN" />
+      <edge id="5" source="детишки_NOUN" target="подросток_NOUN" />
+      <edge id="6" source="детишки_NOUN" target="дитё_NOUN" />
+      <edge id="7" source="детишки_NOUN" target="ребятишки_NOUN" />
+      <edge id="8" source="младенец_NOUN" target="ребенок_NOUN" />
+      <edge id="9" source="младенец_NOUN" target="малыш_NOUN" />
+      <edge id="10" source="младенец_NOUN" target="девочка_NOUN" />
+      <edge id="11" source="младенец_NOUN" target="мальчик_NOUN" />
+      <edge id="12" source="младенец_NOUN" target="дитё_NOUN" />
+      <edge id="13" source="ребенок_NOUN" target="малыш_NOUN" />
+      <edge id="14" source="ребенок_NOUN" target="девочка_NOUN" />
+      <edge id="15" source="ребенок_NOUN" target="мальчик_NOUN" />
+      <edge id="16" source="ребенок_NOUN" target="подросток_NOUN" />
+      <edge id="17" source="ребенок_NOUN" target="детей_NOUN" />
+      <edge id="18" source="ребенок_NOUN" target="дитё_NOUN" />
+      <edge id="19" source="ребенок_NOUN" target="ребятишки_NOUN" />
+      <edge id="20" source="малыш_NOUN" target="девочка_NOUN" />
+      <edge id="21" source="малыш_NOUN" target="мальчик_NOUN" />
+      <edge id="22" source="малыш_NOUN" target="подросток_NOUN" />
+      <edge id="23" source="малыш_NOUN" target="дитё_NOUN" />
+      <edge id="24" source="малыш_NOUN" target="ребятишки_NOUN" />
+      <edge id="25" source="девочка_NOUN" target="мальчик_NOUN" />
+      <edge id="26" source="девочка_NOUN" target="подросток_NOUN" />
+      <edge id="27" source="девочка_NOUN" target="дитё_NOUN" />
+      <edge id="28" source="девочка_NOUN" target="ребятишки_NOUN" />
+      <edge id="29" source="мальчик_NOUN" target="подросток_NOUN" />
+      <edge id="30" source="мальчик_NOUN" target="дитё_NOUN" />
+      <edge id="31" source="мальчик_NOUN" target="ребятишки_NOUN" />
+      <edge id="32" source="подросток_NOUN" target="ребятишки_NOUN" />
+    </edges>
+  </graph>
+</gexf>
