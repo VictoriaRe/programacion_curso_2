@@ -1,1 +1,1 @@
-Ссылка на веб-приложение to be updated (при наличии норм инета)
+Ссылка на веб-приложение: https://enigmatic-lowlands-30363.herokuapp.com
